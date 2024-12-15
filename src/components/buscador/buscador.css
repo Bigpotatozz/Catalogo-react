@@ -1,0 +1,13 @@
+.buscador_input{
+    padding: 10px;
+    font-family: sans-serif;
+    border: solid 1px transparent;	
+    border-radius: 5px;
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+.buscador_input:focus{
+
+    outline: none;
+}   

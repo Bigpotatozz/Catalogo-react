@@ -1,8 +1,18 @@
 body{
     margin: 0;
     padding: 0;
+    background: #151515;
+}
+
+nav{
+    height: 100vh;
 }
 
 .home{
     padding: 2%;
+    width: 100%;
+}
+
+.container{
+    display: flex;
 }

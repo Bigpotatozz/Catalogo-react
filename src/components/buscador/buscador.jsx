@@ -1,3 +1,5 @@
+import Box from '@mui/material/Box';
+import TextField from '@mui/material/TextField';
 import './buscador.css';
 
 //SE RECIBE COMO PARAMETRO LA FUNCION DEL PADRE
@@ -15,7 +17,7 @@ export function Buscador({buscarModelo}) {
     return (
         <>
         
-        <input type='text' placeholder='Escribe el modelo a buscar'onChange={handleInputChange}></input>
+        <input type='text' placeholder='Escribe el modelo a buscar'onChange={handleInputChange} className='buscador_input'></input>
 
 
         </>

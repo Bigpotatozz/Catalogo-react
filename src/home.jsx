@@ -5,11 +5,15 @@ export function Home() {
 
     return (
         <>
-            <Navbar></Navbar>
 
-            <div className="home">
-                <Outlet></Outlet>
+            <div className="container">
+                <Navbar></Navbar>
+
+                <div className="home">
+                    <Outlet></Outlet>
+                </div>
             </div>
+
 
 
         </>

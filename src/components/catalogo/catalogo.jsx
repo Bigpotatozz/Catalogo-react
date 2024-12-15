@@ -19,9 +19,13 @@ export function Catalogo() {
 
     return (
         <>
+
+
             <Buscador buscarModelo={buscarModelo}></Buscador>
 
             <Modelos_tabla modelos={data} modelo_a_buscar={busqueda}></Modelos_tabla>
+
+
         </>
 
     );
